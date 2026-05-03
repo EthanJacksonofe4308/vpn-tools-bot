@@ -14,8 +14,7 @@ Telegram bot with IP tools, speed test, and VPN link manager.
 ```bash
 git clone https://github.com/EthanJacksonofe4308/vpn-tools-bot.git
 cd vpn-tools-bot
-python -m venv venv
-source venv/bin/activate
+apt install python3-pip
 pip install -r requirements.txt
 cp .env.example .env
 python main.py
